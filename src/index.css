@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #000000;
+    background-color: #f7f9f6;
+  }
+}
+
+.font-mono-neo {
+  font-family: 'Space Mono', monospace, Courier, monospace;
+}
+
+/* Neo-brutalist custom utilities */
+.neo-border {
+  border: 2.5px solid #000000;
+}
+
+.neo-border-3 {
+  border: 3px solid #000000;
+}
+
+.neo-shadow {
+  box-shadow: 4px 4px 0px 0px #000000;
+}
+
+.neo-shadow-lg {
+  box-shadow: 6px 6px 0px 0px #000000;
+}
+
+.neo-shadow-xl {
+  box-shadow: 8px 8px 0px 0px #000000;
+}
+
+.neo-shadow-red {
+  box-shadow: 5px 5px 0px 0px #dc2626;
+}
+
+.neo-shadow-green {
+  box-shadow: 5px 5px 0px 0px #16a34a;
+}
+
+/* Interactive hover bump that lifts and strengthens the shadow */
+.neo-bump {
+  transition: all 0.15s cubic-bezier(0.2, 0, 0, 1);
+}
+
+.neo-bump:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 7px 7px 0px 0px #000000;
+}
+
+.neo-bump:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px 0px #000000;
+}
+
+/* Marquee infinite scroll */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: 200%;
+  animation: marquee 22s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+@keyframes twinkleStar {
+  0% {
+    opacity: 0.2;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 0.95;
+    transform: scale(1.3);
+  }
+}
+
+@keyframes pulseGlow {
+  0% {
+    transform: scale(1) rotate(0deg);
+    filter: drop-shadow(0 0 2px currentColor);
+  }
+  50% {
+    transform: scale(1.18) rotate(15deg);
+    filter: drop-shadow(0 0 10px currentColor);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+    filter: drop-shadow(0 0 2px currentColor);
+  }
+}
+
