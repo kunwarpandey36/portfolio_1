@@ -17,18 +17,19 @@ export interface Track {
 }
 
 export const PLAYLIST: Track[] = [
-  {
-    id: 'biba',
-    title: 'BIBA (feat. Shirley Setia)',
-    artist: 'Marshmello x Pritam',
+    {
+    id: 'reflections',
+    title: 'Reflections (Slowed)',
+    artist: 'The Neighbourhood',
     sources: [
-      '/Marshmello x Pritam - BIBA.mp3',
-      '/Marshmello%20x%20Pritam%20-%20BIBA.mp3',
-      '/Marshmello x Pritam - BIBA feat. Shirley Setia (Official Lyric Video).mp3',
-      '/Marshmello%20x%20Pritam%20-%20BIBA%20feat.%20Shirley%20Setia%20(Official%20Lyric%20Video).mp3',
-      'https://raw.githubusercontent.com/kunwarpandey36/portfolio/main/public/Marshmello%20x%20Pritam%20-%20BIBA%20feat.%20Shirley%20Setia%20(Official%20Lyric%20Video).mp3',
+      '/Reflections (Slowed Reverb).mp3',
+      '/Reflections%20(Slowed%20Reverb).mp3',
+      '/Reflections (best part loopedslowedreverb).mp3',
+      '/Reflections%20(best%20part%20loopedslowedreverb).mp3',
+      'https://raw.githubusercontent.com/kunwarpandey36/portfolio/main/public/Reflections%20(best%20part%20loopedslowedreverb).mp3',
     ],
   },
+  
   {
     id: 'wasted',
     title: 'WASTED (Nightcore)',
@@ -63,18 +64,7 @@ export const PLAYLIST: Track[] = [
       'https://raw.githubusercontent.com/kunwarpandey36/portfolio/main/public/Purpose%20Is%20Glorious%20(From%20Loki_%20Season%202%20-%20Vol.%202%20(Episodes%204-6)ScoreAudio%20Only).mp3',
     ],
   },
-  {
-    id: 'reflections',
-    title: 'Reflections (Slowed)',
-    artist: 'The Neighbourhood',
-    sources: [
-      '/Reflections (Slowed Reverb).mp3',
-      '/Reflections%20(Slowed%20Reverb).mp3',
-      '/Reflections (best part loopedslowedreverb).mp3',
-      '/Reflections%20(best%20part%20loopedslowedreverb).mp3',
-      'https://raw.githubusercontent.com/kunwarpandey36/portfolio/main/public/Reflections%20(best%20part%20loopedslowedreverb).mp3',
-    ],
-  },
+
   {
     id: 'travis',
     title: 'HIGHEST IN THE ROOM',
@@ -94,6 +84,18 @@ export const PLAYLIST: Track[] = [
       '/Taylor Swift-Wildest Dreams.mp3',
       '/Taylor%20Swift-Wildest%20Dreams.mp3',
       'https://raw.githubusercontent.com/kunwarpandey36/portfolio/main/public/Taylor%20Swift-Wildest%20Dreams.mp3',
+    ],
+  },
+  {
+    id: 'biba',
+    title: 'BIBA (feat. Shirley Setia)',
+    artist: 'Marshmello x Pritam',
+    sources: [
+      '/Marshmello x Pritam - BIBA.mp3',
+      '/Marshmello%20x%20Pritam%20-%20BIBA.mp3',
+      '/Marshmello x Pritam - BIBA feat. Shirley Setia (Official Lyric Video).mp3',
+      '/Marshmello%20x%20Pritam%20-%20BIBA%20feat.%20Shirley%20Setia%20(Official%20Lyric%20Video).mp3',
+      'https://raw.githubusercontent.com/kunwarpandey36/portfolio/main/public/Marshmello%20x%20Pritam%20-%20BIBA%20feat.%20Shirley%20Setia%20(Official%20Lyric%20Video).mp3',
     ],
   },
 ];
